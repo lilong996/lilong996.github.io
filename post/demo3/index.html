@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Li long's blog </title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://lilong996.github.io/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="冒泡排序"/>
+<meta name="twitter:description" content="package a;
+import java.util.concurrent.ForkJoinPool;
+public class 冒泡排序 {
+public static void main(String[] args) { int [] arr={7,2,0,4,5}; for (int i = 0; i &lt; arr.length; i&#43;&#43;) { for (int j = 0; j &lt; arr.length-1; j&#43;&#43;) { int temp; if(arr[j]&gt;arr[j&#43;1]){ temp=arr[j]; arr[j]=arr[j&#43;1]; arr[j&#43;1]=temp;} } System.out.println(&quot;第&quot;&#43;(i&#43;1)&#43;&quot;次排序结果：&quot;); for (int j = 0; j &lt; arr.length; j&#43;&#43;) { System.out.print(arr[j]&#43;&quot; &quot;); } System.out.println(&quot;&quot;); } for (int i = 0; i &lt; arr.length; i&#43;&#43;) { System."/>
+
+    <meta property="og:title" content="冒泡排序" />
+<meta property="og:description" content="package a;
+import java.util.concurrent.ForkJoinPool;
+public class 冒泡排序 {
+public static void main(String[] args) { int [] arr={7,2,0,4,5}; for (int i = 0; i &lt; arr.length; i&#43;&#43;) { for (int j = 0; j &lt; arr.length-1; j&#43;&#43;) { int temp; if(arr[j]&gt;arr[j&#43;1]){ temp=arr[j]; arr[j]=arr[j&#43;1]; arr[j&#43;1]=temp;} } System.out.println(&quot;第&quot;&#43;(i&#43;1)&#43;&quot;次排序结果：&quot;); for (int j = 0; j &lt; arr.length; j&#43;&#43;) { System.out.print(arr[j]&#43;&quot; &quot;); } System.out.println(&quot;&quot;); } for (int i = 0; i &lt; arr.length; i&#43;&#43;) { System." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lilong996.github.io/post/demo3/" />
+<meta property="article:published_time" content="2019-05-30T21:49:40&#43;08:00"/>
+<meta property="article:modified_time" content="2019-05-30T21:49:40&#43;08:00"/>
+
+
+  </head>
+  <body  style="line-height: 2.0; color:indianred;background: rebeccapurple; "  >
+  	
+    <header class="app-header" ; style="background: rebeccapurple;" >
+      <a href="https://lilong996.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" />
+ </a>
+  
+      <h1>weclome to me blog</h1>
+    
+    
+      <p>只有不懈的努力与奋斗，才能战胜人生中的激流，找到那条理想之路，跳过理想之门，找寻属于自己奋斗而得来的果实</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">冒泡排序</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 30, 2019
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <p>package a;</p>
+
+<p>import java.util.concurrent.ForkJoinPool;</p>
+
+<p>public class 冒泡排序 {</p>
+
+<pre><code>public static void main(String[] args) {
+
+    int [] arr={7,2,0,4,5};
+    for (int i = 0; i &lt; arr.length; i++) {
+        for (int j = 0; j &lt; arr.length-1; j++) {
+            int temp;
+            if(arr[j]&gt;arr[j+1]){
+                temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;}
+            }
+ System.out.println(&quot;第&quot;+(i+1)+&quot;次排序结果：&quot;);
+
+        for (int j = 0; j &lt; arr.length; j++) {
+
+
+            System.out.print(arr[j]+&quot; &quot;);
+
+        }
+
+        System.out.println(&quot;&quot;);
+        }
+
+        for (int i = 0; i &lt; arr.length; i++) {
+            System.out.println(arr[i]+&quot; &quot;);
+
+        }
+    }
+
+}
+</code></pre>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
