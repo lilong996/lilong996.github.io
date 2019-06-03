@@ -6,9 +6,55 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 30 May 2019 21:49:40 +0800</lastBuildDate>
     
 	<atom:link href="https://lilong996.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>冒泡排序</title>
+      <link>https://lilong996.github.io/post/demo3/</link>
+      <pubDate>Thu, 30 May 2019 21:49:40 +0800</pubDate>
+      
+      <guid>https://lilong996.github.io/post/demo3/</guid>
+      <description>package a;
+import java.util.concurrent.ForkJoinPool;
+public class 冒泡排序 {
+public static void main(String[] args) { int [] arr={7,2,0,4,5}; for (int i = 0; i &amp;lt; arr.length; i++) { for (int j = 0; j &amp;lt; arr.length-1; j++) { int temp; if(arr[j]&amp;gt;arr[j+1]){ temp=arr[j]; arr[j]=arr[j+1]; arr[j+1]=temp;} } System.out.println(&amp;quot;第&amp;quot;+(i+1)+&amp;quot;次排序结果：&amp;quot;); for (int j = 0; j &amp;lt; arr.length; j++) { System.out.print(arr[j]+&amp;quot; &amp;quot;); } System.out.println(&amp;quot;&amp;quot;); } for (int i = 0; i &amp;lt; arr.length; i++) { System.</description>
+    </item>
+    
+    <item>
+      <title>Java学习书目</title>
+      <link>https://lilong996.github.io/post/demo2/</link>
+      <pubDate>Thu, 30 May 2019 21:36:43 +0800</pubDate>
+      
+      <guid>https://lilong996.github.io/post/demo2/</guid>
+      <description>一、基础类 1、《Thinking in java》，入门第一位是建立正确的概念。 2、《Core Java》，我没系统读过，这本书更贴近实践，更多API的介绍，同样，更新也更频繁。 二、进阶类 1、《Effective Java》，在熟悉语法、API之后，你需要知道最佳实践和陷阱，没有比这本更好的。 2、《Java Puzzlers》，通过谜题介绍一些你可能没有注意到的边角料，作为趣味读物也不错 3、《深入Java虚拟机》，翻译一般，但不可不读，最好结合最新的JVM规范来读。 三、特定领域 1、网络编程： （1） O’Reilly的《Java nio》，很多人都推荐，我个人觉的一般，基本上只是个API更详细的说明文档,O’reilly的java系列很多都是这样。 （2）我更推荐这本《Fundamental networking in java》，由浅入深教你怎么做java网络编程，并且介绍很多背景知识，甚至介绍了各种最佳实践、网络编程模型以及Java socket在不同平台之间的差异等等。 2、并发编程： （1）《Java Concurrency in Practic》，并发领域必读经典。 （2）《Java并发编程：设计原则与模式》，同样是Doug lea的作品。 （3) 《java threads》，入门读物。 3、web编程，这块我许久未接触了，就不推荐了，有兴趣的朋友可以补充下。 四、模式与设计 1、《设计模式》，GOF的经典。 2、《设计模式精解》，应该有最新版，个人认为更适合入门。 3、《Head first设计模式》，更轻松的入门读物。 4、《企业应用架构模式》 5、《分析模式——可复用对象模型》 6、《面向模式的软件体系结构》，国内貌似翻译了3卷，绝对经典，可惜翻译较差。 7、《重构——改善既有代码设计》,想写好代码必读。 8、《重构与模式》 五、方法论 1、《敏捷软件开发》 2、《测试驱动开发》，你不一定要TDD，但是你一定要学会做单元测试。 3、《Agile Java》，也可以作为java入门读物。 4、《快速软件开发》 5、《面向对象分析与设计》，OO设计必读。 6、《Unix编程艺术》，打开你的眼界。 六、Java之外 1、《unix网络编程》，学习网络编程必读书。 2、《C++网络编程》上下两卷，介绍ACE的，但是其中对各种模式运用的介绍非常值的一读。 3、《Joel说软件》，编程文化 4、《人月神话》、《人件》 5、《卓有成效的程序员》，给我很大启发的一本书。 6、《程序员修炼之道》 7、《计算机程序的构造与解释》，必读 8、《算法导论》，可以作为参考书 9、《深入理解计算机系统》 10、《编译原理》龙书，最新版用java解释，我没有读完，顺便提下。</description>
+    </item>
+    
+    <item>
+      <title>名言警句</title>
+      <link>https://lilong996.github.io/post/demo1/</link>
+      <pubDate>Wed, 29 May 2019 21:40:55 +0800</pubDate>
+      
+      <guid>https://lilong996.github.io/post/demo1/</guid>
+      <description>1.昨天再好，走不回去，明天再难，也要抬脚继续，你不勇敢，没有人替你坚强，你不疯狂，没有人帮你实现梦想。
+2.十年前，你周围的人会根据你父母的收入对待你。十年后，你周围的人会根据你的收入对待你的父母和你的孩子！这就是人性和人生，除了努力别无选择。记住：没有伞的孩子，必须努力奔跑！
+3.车子有油、手机有电、卡里有钱，这就是安全感，指望别人都是扯淡。再牛的副驾驶，都不如自己紧握方向盘。——致在奋斗的自己
+4.梦想注定是孤独的旅程，路上少不了质疑和嘲笑，但那又怎样，哪怕遍体鳞伤也要勇往直前。
+5.现在偷的每个懒，都是给未来挖的坑，以后的日子要付出数倍的努力来填补这个坑。现在吃的每个苦，都是给未来添砖加瓦，以后的日子会加倍享受苦所带来的乐。
+6.不要失去希望，你永远不知道明天会带来什么。很多事犹如天气，慢慢热或者渐渐冷，等到惊悟，已过了一季。趁年青，趁梦想还在，想去的地方，现在就去。想做的事情，现在就做。
+7.其实，做人最怕的不是努力了没结果，而是还没尝试就选择放弃。想一千次，不如去做一次，你不逼自己一把，怎会知道自己有多优秀。与其抱怨，不如改变。你若不成长，谁来替你坚强。
+8.只要生命还在，请你相信每天的太阳都是新的。与其花时间应付以后不理想的生活，不如花时间造就你想要的生活。
+9.自己想要的东西，要么奋力直追，要么干脆放弃。别总是逢人就喋喋不休的表决心或者哀怨不断，做别人茶余饭后的笑点。
+10.为了未来美一点，现在必须苦一点。低头不算认输，放弃才是懦夫。
+11.运气是努力的附属品，没有经过实力的原始积累，给你运气你也抓不住。上天给予每个人的都一样，但每个人的准备却不一样。不要羡慕那些总能撞大运的人，你必须很努力，才能遇上好运气。
+12.有些压力总是得自己扛过去，说出来就成了充满负能量的抱怨。寻求安慰也无济于事，还徒增了别人的烦恼。而当你独自走过艰难险阻，一定会感激当初一声不吭咬牙坚持着的自己。——顾奈
+13.成功没有快车道，幸福没有高速路。所有的成功，都来自不倦的努力和奔跑；相信你所相信的！你的目标就一定会实现！
+14.想干就干，要干就干的漂亮，即使没有人为你鼓掌，至少还能够勇敢的自我欣赏。当你为自己的坎坷人生不断鼓掌，加油、奋进时，必将迎来别人的掌声与喝彩。
+15.加倍努力，证明你想要的不是空中楼阁。胜利是在多次失败之后才姗姗而来。
+16.每个人的人生都有两条路，一条用心走，叫做梦想；一条用脚走，叫做现实。心走得太慢，现实会苍白；脚走得太慢，梦不会高飞。人生的精彩，总是心走得很美，而与脚步能合一。</description>
+    </item>
     
   </channel>
 </rss>
